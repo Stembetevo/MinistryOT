@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./Ministrytrade.png" height="52px" width="52px" alt="Ministry of Trade Logo">
+            <h1>Ministry of Trade</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Success Stories</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+            
+        </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            
+            <div class="video-container">
+                <h2>Welcome to the Ministry of Trade</h2>
+                <video width="640" height="360" controls autoplay muted loop poster="thumbnail-image.jpg">
+                    <source src="Trade Ministry Seeks to Demystify Manufacturing in Kenya!.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>We are dedicated to promoting trade and commerce in our region.</p>
+            
+        </section>
+
+        <section>
+            
+            <div class="success-slider">
+                <h2>Success Stories</h2>
+                <div class="slider-container" id="sliderContainer">
+                  <div class="slide">
+                    <div class="slide-content">
+                      <img src="./images/tech-innovation.jpg" alt="Tech Innovations Ltd">
+                      <h3>Tech Innovations Ltd</h3>
+                      <p>A small software company that expanded their team from 5 to 25 employees after receiving funding and mentorship through our SME innovation program.</p>
+                      <p><strong>Impact:</strong> 400% growth in revenue and creation of 20 new tech jobs</p>
+                    </div>
+                  </div>
+                  
+                  <div class="slide">
+                    <div class="slide-content">
+                      <img src="./images/green-harvest.png" alt="Green Harvest Organics">
+                      <h3>Green Harvest Organics</h3>
+                      <p>A family farm that transformed into a successful organic food producer with export capabilities after receiving market access support.</p>
+                      <p><strong>Impact:</strong> Entered 3 international markets and increased production capacity by 250%</p>
+                    </div>
+                  </div>
+                  
+                  <div class="slide">
+                    <div class="slide-content">
+                      <img src="./images/craft-urban-aurora-interior.jpg" alt="Urban Crafts Collective">
+                      <h3>Urban Crafts Collective</h3>
+                      <p>An artisan cooperative that received technical training and e-commerce support, enabling them to sell handcrafted goods globally.</p>
+                      <p><strong>Impact:</strong> Improved livelihoods for 35 artisan families and preserved traditional craftsmanship</p>
+                    </div>
+                  </div>
+                  
+                  <div class="slide">
+                    <div class="slide-content">
+                      <img src="./images/Medical-Equipment.jpg" alt="MediSolution Healthcare">
+                      <h3>MediSolution Healthcare</h3>
+                      <p>A healthcare startup that developed an innovative medical device with R&D grants and regulatory compliance support.</p>
+                      <p><strong>Impact:</strong> Secured 3 patents and improved healthcare access for underserved communities</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="slider-controls">
+                  <button class="slider-arrow" onclick="slideChange(-1)">&#10094;</button>
+                  <button class="slider-arrow" onclick="slideChange(1)">&#10095;</button>
+                </div>
+                
+                <div class="slider-dots" id="sliderDots">
+                  <span class="slider-dot active" onclick="goToSlide(0)"></span>
+                  <span class="slider-dot" onclick="goToSlide(1)"></span>
+                  <span class="slider-dot" onclick="goToSlide(2)"></span>
+                  <span class="slider-dot" onclick="goToSlide(3)"></span>
+                </div>
+              </div>
+
+        </section>
+
+        <section>
+            
+            <div class="slider-containerr">
+                <h2>Latest News</h2>
+                <div class="sliderr">
+                    <div class="slidee">
+                        <img src="./images/SME-Funding-in-Kenya.png" alt="SME Funding Programs">
+                        <div class="slide-content">
+                            <h2>SME Funding Programs</h2>
+                            <p>Access special financing options designed specifically for small and medium enterprises looking to expand their operations.</p>
+                        </div>
+                    </div>
+                    <div class="slidee">
+                        <img src="./images/innovation-fund.png" alt="Innovation Grants">
+                        <div class="slide-contentt">
+                            <h2>Innovation Grants</h2>
+                            <p>Discover how our innovation grants have helped local businesses develop cutting-edge technologies and services.</p>
+                        </div>
+                    </div>
+                    <div class="slidee">
+                        <img src="./images/business.png" alt="Business Advisory Services">
+                        <div class="slide-contentt">
+                            <h2>Business Advisory Services</h2>
+                            <p>Our expert consultants provide personalized guidance to help your business overcome challenges and seize opportunities.</p>
+                        </div>
+                    </div>
+                    <div class="slidee">
+                        <img src="./images/export.png" alt="Export Development">
+                        <div class="slide-contentt">
+                            <h2>Export Development</h2>
+                            <p>Learn how we're helping local SMEs access international markets and expand their global footprint.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-navv">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ministry of Trade. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
